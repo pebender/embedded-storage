@@ -7,6 +7,8 @@
 #![no_std]
 #![deny(missing_docs)]
 #![deny(unsafe_code)]
+// is_multiple_of was introduced after rust 1.50.
+#![allow(clippy::manual_is_multiple_of)]
 
 /// Currently contains [`OverlapIterator`]
 pub mod iter;

@@ -216,7 +216,7 @@ impl Region for Page {
 	}
 }
 
-///
+/// TODO: Add documentation.
 pub struct RmwNorFlashStorage<'a, S> {
 	storage: S,
 	merge_buffer: &'a mut [u8],
@@ -291,7 +291,7 @@ where
 	}
 }
 
-///
+/// TODO: Add documentation.
 pub struct RmwMultiwriteNorFlashStorage<'a, S> {
 	storage: S,
 	merge_buffer: &'a mut [u8],
